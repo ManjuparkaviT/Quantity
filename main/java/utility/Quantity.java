@@ -39,14 +39,14 @@ public class Quantity{
     }
 
 
-    public static double sumOfValuesInKilometerAndCentimeterInCentimeter(double secondValue, double kilometer){
-        return (kilometer*100000)+secondValue;
+    public static double sumOfValuesInKilometerAndCentimeterInCentimeter(double firstValue, double secondValue){
+        return (secondValue*100000)+firstValue;
     }
 
     public static double differenceOfValuesInMeterAndCentimeterInMeter(double firstValue, double secondValue){
         return (firstValue)-(0.01*secondValue);
     }
-    
+
     public static double differenceOfValuesInCentimeterAndMeterInCentimeter(double firstValue, double secondValue){
         return (firstValue)-(100*secondValue);
     }
