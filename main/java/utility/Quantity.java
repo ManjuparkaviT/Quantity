@@ -46,7 +46,7 @@ public class Quantity{
     public static double differenceOfValuesInMeterAndCentimeterInMeter(double firstValue, double secondValue){
         return (firstValue)-(0.01*secondValue);
     }
-
+    
     public static double differenceOfValuesInCentimeterAndMeterInCentimeter(double firstValue, double secondValue){
         return (firstValue)-(100*secondValue);
     }
